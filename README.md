@@ -24,3 +24,8 @@ Reads the file /home/bryan/data/TEST_Homo_sapiens.GRCh38.78.gtf and produces thr
     3. Hs_transcript.txt
 The first file (Hs_gene.txt)contains only those entries with a "feature" type of "gene"; the second file (Hs_CDS.txt)  contains only those entries with the feature type of "CDS", and the third file (Hs_transcript.txt) should contain only those entries with feature type = "transcript". 
 
+#Final Project = Bioinformatics Workflow
+The script takes two command-line arguments:
+1. the name of a file containing a list of sequence barcodes (one barcode per line)
+2. the name of a file containing barcoded sequences in our 'simple' sequence format, with one sequence per line:
+The output is a list of distances (average +/- standard_error) among sequences matching each barcode. The script groups the sequences that match each barcode. Then it aligns the sequences using mafft, converts the mafft alignment from fasta to stockholm format, then uses quicktree to calculate the distance matrix. Then it calculates the mean and standard error of the upper diagonal of the distance matrix.
