@@ -15,3 +15,12 @@ Takes 1 command line argument: the name of a file with unaligned DNA sequences i
 
 #Assignment10 = Mean and Standard Error Calculator from a Distance Matrix
 Takes 1 command line argument: the name of a file of a distance matrix in quicktree format. This script calculates the mean and standard error of the upper diagonal of the distance matrix. It prints <mean> +/- <standard_error> as floating point numbers.
+
+#Unix Challenge Problem
+This script reads a file, parses, and sorts information into output files.
+Reads the file /home/bryan/data/TEST_Homo_sapiens.GRCh38.78.gtf and produces three output files 
+    1. Hs_gene.txt
+    2. Hs_CDS.txt
+    3. Hs_transcript.txt
+The first file (Hs_gene.txt)contains only those entries with a "feature" type of "gene"; the second file (Hs_CDS.txt)  contains only those entries with the feature type of "CDS", and the third file (Hs_transcript.txt) should contain only those entries with feature type = "transcript".
+
