@@ -22,5 +22,5 @@ Reads the file /home/bryan/data/TEST_Homo_sapiens.GRCh38.78.gtf and produces thr
     1. Hs_gene.txt
     2. Hs_CDS.txt
     3. Hs_transcript.txt
-The first file (Hs_gene.txt)contains only those entries with a "feature" type of "gene"; the second file (Hs_CDS.txt)  contains only those entries with the feature type of "CDS", and the third file (Hs_transcript.txt) should contain only those entries with feature type = "transcript".
+The first file (Hs_gene.txt)contains only those entries with a "feature" type of "gene"; the second file (Hs_CDS.txt)  contains only those entries with the feature type of "CDS", and the third file (Hs_transcript.txt) should contain only those entries with feature type = "transcript". 
 
